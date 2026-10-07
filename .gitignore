@@ -73,3 +73,25 @@ yarn-error.log
 !.yarn/releases
 !.yarn/sdks
 !.yarn/versions
+
+# AI agents, skills and configs
+/.agents/
+/AGENTS.md
+/skills-lock.json
+/.claude/
+/.codex/
+/CLAUDE.md
+/.github/copilot-instructions.md
+/.github/skills/
+/.cursor/
+/.cursorrules
+/.gemini/
+/.windsurf/
+
+# SpecKit & specifications
+/.specify/
+/CONSTITUTION.MD
+/specs/
+
+# InAppStory local secret configuration
+src/config/iasConfig.ts
